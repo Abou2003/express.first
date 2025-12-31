@@ -1,9 +1,8 @@
 const express = require("express");
 const app = express();
 
-app.use(express.json()); // Pour lire le JSON
+app.use(express.json()); 
 
-// 📌 Base de données (tableau)
 let taches = [];
 let idAuto = 1;
 
